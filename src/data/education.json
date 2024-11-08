@@ -1,37 +1,27 @@
 {
   "education": [
     {
-      "name": "Digipen Institute of Technology Singapore",
-      "href": "https://www.digipen.edu.sg",
-      "title": "BS in Computer Science in Real-Time Interactive Simulation",
-      "logo": "/digipen.png",
-      "start": "Sep 2019",
-      "end": "Apr 2023",
+      "name": "BrainStation",
+      "href": "https://brainstation.io/",
+      "title": "Diploma in Software Engineering",
+      "logo": "/brainstation.png",
+      "start": "Oct 2022",
+      "end": "Dec 2022",
       "description": [
-        "Graduated with a Minor in Mathematics",
-        "President of Digipen Student Management Committee for freshman year",
-        "3-time recipient of the Dean's Honor List"
-      ],
-      "links": [
-        {
-          "name": "Final Year Project",
-          "href": "https://games.digipen.edu/games/rapid-ride-fight",
-          "icon": "globe"
-        },
-        {
-          "name": "2nd Year Project",
-          "href": "https://games.digipen.edu/games/glowing-under",
-          "icon": "globe"
-        }
+        "Graduated with honors",
+        "2nd place in LoyaltyOne's Air Miles hackathon"
       ]
     },
     {
-      "name": "Singapore Polytechnic",
-      "href": "https://www.sp.edu.sg",
-      "title": "Diploma in Games Design and Development",
-      "logo": "/sp.png",
-      "start": "Apr 2014",
-      "end": "May 2017"
+      "name": "codecademy",
+      "href": "https://www.codecademy.com/?g_network=g&g_productchannel=&g_adid=624951457618&g_locinterest=&g_keyword=codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=aud-2224717797776:kwd-41065460761&g_ifcreative=&g_campaign=account&g_locphysical=9121911&g_adgroupid=70492864474&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1726903838&g_ifproduct=&utm_id=t_aud-2224717797776:kwd-41065460761:ag_70492864474:cp_1726903838:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy&utm_campaign=INTL_Brand_Exact&utm_content=624951457618&g_adtype=search&g_acctid=243-039-7011&gad_source=1&gclid=Cj0KCQiA57G5BhDUARIsACgCYny3rfscW1grK-C19u3hc55kd2nrT53KUyYFaK-L366EU_ugyt7azkgaAoFGEALw_wcB",
+      "title": "Certificate in Front End Web Development",
+      "logo": "/codecademy.png",
+      "start": "June 2022",
+      "end": "Oct 2022",
+      "description": [
+        "Learnt Javascript, HTML, CSS and React "
+      ]
     }
   ]
 }

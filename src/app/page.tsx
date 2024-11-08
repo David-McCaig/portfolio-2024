@@ -15,7 +15,7 @@ import Link from "next/link";
 import path from "path";
 
 const blogDirectory = path.join(process.cwd(), "content");
-const TED_BIRTH_YEAR = 1997;
+const TED_BIRTH_YEAR = 1987;
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
@@ -26,29 +26,28 @@ export default async function Home() {
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
           className="rounded-lg"
-          src="/ted.jpg"
+          src="/david-mccaig.webp"
           alt="Photo of Ted"
           width={175}
           height={175}
           priority
         />
         <div className="flex flex-col">
-          <h1 className="title text-5xl">hi ted here 👋</h1>
-          <p className="mt-4 font-light">
+          <h1 className="title text-5xl">hi Dave here 👋</h1>
+          {/* <p className="mt-4 font-light"> */}
             {/* Update my age */}
-            {new Date().getFullYear() - TED_BIRTH_YEAR}
+            {/* {new Date().getFullYear() - TED_BIRTH_YEAR}
             -year-old <s>game</s> software developer from Singapore 🇸🇬
-          </p>
+          </p> */}
           <p className="mt-2 font-light">
-            I like to develop full-stack, drink instant coffee and get coding
-            advice from my cat,{" "}
-            <Link
+          I&apos;m a Full-Stack Developer with a love for creating beautiful UI and user-friendly applications.{" "}
+            {/* <Link
               href="https://www.instagram.com/gomugomu.cat"
               target="_blank"
               className="link font-semibold"
             >
-              Luffy.
-            </Link>
+              
+            </Link> */}
           </p>
           <div className="mt-4 flex items-end gap-1">
             <p className="font-semibold">Ask the chatbot anything about me</p>
@@ -81,7 +80,7 @@ export default async function Home() {
         <Projects limit={LIMIT} />
       </section>
 
-      <section className="flex flex-col gap-8">
+      {/* <section className="flex flex-col gap-8">
         <div className="flex justify-between">
           <h2 className="title text-3xl">recent posts</h2>
           <LinkWithIcon
@@ -92,7 +91,7 @@ export default async function Home() {
           />
         </div>
         <Posts posts={posts} />
-      </section>
+      </section> */}
     </article>
   );
 }
