@@ -1,8 +1,11 @@
+import { useEffect, useState } from "react";
+import { continueConversation } from "../lib/actions";
 import { useChatbot } from "@/contexts/ChatContext";
 import { useChat } from "ai/react";
 import ChatHeader from "./ChatHeader";
 import ChatInput from "./ChatInput";
 import ChatMessages from "./ChatMessages";
+import { type CoreMessage } from "ai";
 import {
   Accordion,
   AccordionContent,
@@ -25,7 +28,7 @@ export default function Chat() {
 
   return (
     isVisible && (
-      <Accordion type="single" collapsible className="relative z-40 flexs">
+      <Accordion type="single" collapsible className="flexs relative z-40">
         <AccordionItem
           value="item-1"
           className="fixed bottom-8 right-8 w-80 rounded-md border bg-background"

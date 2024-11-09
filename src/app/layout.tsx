@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Calistoga, Inter } from "next/font/google";
 import "./globals.css";
+import ThemeScript from "@/components/ThemeScript";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({
@@ -24,13 +25,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={cn(inter.variable, calistoga.variable)} suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
       <body
-        className={cn(
-          "mx-auto flex min-h-screen max-w-3xl flex-col px-8 font-sans antialiased",
-          inter.variable,
-          calistoga.variable,
-        )}
+        className="mx-auto flex min-h-screen max-w-3xl flex-col px-8 font-sans antialiased"
       >
         <Providers>
           <Header />

@@ -33,6 +33,8 @@ export default function ChatMessage({
               <Link
                 href={href ?? ""}
                 className="underline underline-offset-2"
+                target="_blank"
+                rel="noopener noreferrer"
                 {...props}
               />
             ),
@@ -53,3 +55,4 @@ export default function ChatMessage({
     </div>
   );
 }
+
