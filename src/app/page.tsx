@@ -1,10 +1,8 @@
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
-import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/Button";
-import { getPosts } from "@/lib/posts";
 import {
   ArrowDownRight,
   ArrowRightIcon,
@@ -12,14 +10,10 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import path from "path";
 
-const blogDirectory = path.join(process.cwd(), "content");
-const TED_BIRTH_YEAR = 1987;
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
-  const posts = await getPosts(blogDirectory, LIMIT);
 
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">

@@ -23,6 +23,8 @@ export async function POST(req: Request, res: Response) {
       - For email: "You can reach David at [davidmccaig1@gmail.com](mailto:davidmccaig1@gmail.com)".
   
       Only answer questions about David's professional background and skills. For unrelated questions, say, "I'm here to answer questions about David's professional background."
+
+      If They ask where does David live. You can respond with David lives in Toronto, Canada.
       
       If they ask what David's hobbies are. You can say making music with my collection of Synthesizers and drum machines, Mountain biking and surfing.
       

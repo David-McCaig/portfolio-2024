@@ -17,13 +17,13 @@
       "links": [
         {
           "name": "Website",
-          "href": "https://github.com/David-McCaig/even-share",
-          "icon": "github"
+          "href": "https://split-bill-427e2.web.app/",
+          "icon": "globe"
         },
         {
           "name": "Source",
-          "href": "https://split-bill-427e2.web.app/",
-          "icon": "globe"
+          "href": "https://github.com/David-McCaig/even-share",
+          "icon": "github"
         }
       ]
     },
