@@ -2,6 +2,7 @@ import data from "@/data/projects.json";
 import { projectSchema } from "@/lib/schemas";
 import { ProjectCard } from "./ProjectCard";
 
+
 interface Props {
   limit?: number;
 }

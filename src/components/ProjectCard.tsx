@@ -1,3 +1,4 @@
+'use client'
 import { Badge } from "@/components/ui/Badge";
 import {
   Card,
@@ -12,15 +13,17 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import Icon from "./Icon";
 
+import { TransitionEffect } from "@/lib/transition-effect";
+
 interface Props {
   project: Project;
 }
 
 export function ProjectCard({ project }: Props) {
   const { name, href, description, image, tags, links } = project;
-
+  const { transitionRef, determineTransitionType } = TransitionEffect();
   return (
-    <Card className="flex flex-col">
+    <Card style={determineTransitionType("translateY(0px)")} className="flex flex-col">
       <CardHeader>
         {image && (
           <Link href={href || image}>
@@ -34,7 +37,7 @@ export function ProjectCard({ project }: Props) {
           </Link>
         )}
       </CardHeader>
-      <CardContent className="flex flex-col gap-2">
+      <CardContent ref={transitionRef} className="flex flex-col gap-2">
         <CardTitle className="text-2xl">{name}</CardTitle>
         <Markdown className="prose max-w-full text-pretty font-sans text-base text-muted-foreground dark:prose-invert">
           {description}
