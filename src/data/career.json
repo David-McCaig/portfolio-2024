@@ -19,7 +19,7 @@
       "start": "May 2024",
       "end": "Nov 2024",
       "description": [
-        "Designed and Built software for a fintech company using Javascript,HTML, CSS, Figma, Typescript, Next.js and Supabase",
+        "Designed and Built software for a fintech company using Typescript, Next.js, Tailwind, Supabase and Figma.",
         "Worked closely with the marketing team, general manager, and CEO, utilizing Agile methodologies to drive the design, development, and maintenance of web applications, ensuring alignment, consistency, and efficient project delivery.",
         "Implemented MixPanel to monitor user interactions such as scrolling and clicks, providing valuable insights for optimizing user experience."
       ]

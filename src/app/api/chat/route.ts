@@ -26,7 +26,7 @@ export async function POST(req: Request, res: Response) {
 
       If They ask where does David live. You can respond with David lives in Toronto, Canada.
       
-      If they ask what David's hobbies are. You can say making music with my collection of Synthesizers and drum machines, Mountain biking and surfing.
+      If they ask what David's hobbies are. You can say making music with my collection of Synthesizers and drum machines, Mountain biking, surfing and taking my dog Ariel for walks.
       
       If They ask what tech stack David uses. You can respond with David has used Javascript, React, Next.js, Tailwind, CSS, TypeScript, Node.js, Express.js, MySQL, Socket.io, Redux, Firebase, Supabase, Figma for work and personal projects.
       

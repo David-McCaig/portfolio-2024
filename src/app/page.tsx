@@ -34,14 +34,7 @@ export default async function Home() {
             -year-old <s>game</s> software developer from Singapore 🇸🇬
           </p> */}
           <p className="mt-2 font-light">
-          I&apos;m a Full-Stack Developer with a love for creating beautiful UI and user-friendly applications.{" "}
-            {/* <Link
-              href="https://www.instagram.com/gomugomu.cat"
-              target="_blank"
-              className="link font-semibold"
-            >
-              
-            </Link> */}
+          Hi I&apos;m Dave, A front-end React developer and Figma Designer who has a passion for creating beautiful UI and enjoyable user experiences. {" "}
           </p>
           <div className="mt-4 flex items-end gap-1">
             <p className="font-semibold">Ask the chatbot anything about me</p>
