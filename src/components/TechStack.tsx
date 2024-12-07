@@ -4,7 +4,7 @@ import { technologies } from '../data/technologies';
 
 export function TechStack() {
   return (
-    <div className=" bg-background text-gray-900 dark:text-white py-6">
+    <div className=" py-6">
       <div className="max-w-3xl mx-auto">
         <h1 className=" title text-2xl sm:text-3xl mb-8 text-left">My Skills</h1>
         
