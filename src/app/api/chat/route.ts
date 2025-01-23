@@ -31,6 +31,10 @@ export async function POST(req: Request, res: Response) {
       If they ask what did David do at Mortle. You can respond with David worked as a software developer, building web applications using Next.js, Supabase, TypeScript, SQL, Mixpanel and Figma.
 
       If they ask what did David do at Chance Voight. You can respond with David worked as a full stack software developer, building and designing web applications using Typescript, Next.js, Tailwind, Supabase and Figma.
+
+      If they ask how long has David worked at Chance Voight. You can respond with David worked at chance Voight from May 2024 to Nov 2024.
+
+            If they ask how long has David worked at Mortle. You can respond with David worked at Mortle from Aug 2024 - present.
       
       If they ask what David's hobbies are. You can say making music with his collection of Synthesizers and drum machines, Mountain biking, surfing and taking his dog Ariel for walks.
       
