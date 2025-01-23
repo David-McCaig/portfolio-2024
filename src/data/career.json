@@ -7,8 +7,9 @@
       "logo": "/mortle-logo.png",
       "start": "Aug 2023",
       "description": [
-        "Designed and Developed a prototype for a death startup using Next.js, Supabase, TypeScript, SQL, and Mixpanel.",
-        "Used Mixpanel analytics to identify and resolve drop-off points, enhancing user retention"
+        "Designed and developed an app for a Death startup using Next.js, Supabase, TypeScript, SQL, Mixpanel and Figma.",
+        "Implemented an iterative design approach to efficiently design features using Figma, and developed and refined them based on user feedback and analytics to deliver a user-centered experience.",
+        "Collaborated in selecting the tech stack for the application, ensuring scalability and performance, and designed the database using Supabase and PostgreSQL to support robust and efficient data management."
       ]
     },
     {
@@ -20,8 +21,9 @@
       "end": "Nov 2024",
       "description": [
         "Designed and Built software for a fintech company using Typescript, Next.js, Tailwind, Supabase and Figma.",
-        "Worked closely with the marketing team, general manager, and CEO, utilizing Agile methodologies to drive the design, development, and maintenance of web applications, ensuring alignment, consistency, and efficient project delivery.",
-        "Implemented MixPanel to monitor user interactions such as scrolling and clicks, providing valuable insights for optimizing user experience."
+        "Worked closely with the marketing team, general manager, and CEO, utilizing Agile methodologies to drive the design, development and maintenance of web applications, ensuring alignment, consistency and efficient project delivery.",
+        "Implemented lazy loading on videos, reducing page load time and improving the Lighthouse performance score by 10%.",
+        "Redesigned the “Contact Us” page, boosting the Lighthouse accessibility score by 5%, improving user experience and search engine rankings."
       ]
     }
   ]

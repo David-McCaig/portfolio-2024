@@ -30,12 +30,12 @@ export default async function Home() {
             -year-old <s>game</s> software developer from Singapore 🇸🇬
           </p> */}
           <p className="mt-2 font-light">
-            Hi I&apos;m Dave, A front-end React developer and Figma Designer who
+            Hi I&apos;m Dave, A front-end React developer who
             has a passion for creating beautiful UI and enjoyable user
-            experiences.{" "}
+            experiences. When I&apos;m not programming you can usually find me racing down mountain bike trails, experimenting with new sounds on my synthesizers, or walking  with my Australian Shepherd, Ariel.{" "}
           </p>
           <div className="mt-4 flex items-end gap-1">
-            <p className="font-semibold">Ask the chatbot anything about me</p>
+            <p className="font-semibold">Ask the AI model anything about me</p>
             <ArrowDownRight className="size-5 animate-bounce" />
           </div>
           <section className="mt-8 flex items-center gap-8">

@@ -6,7 +6,7 @@ export const technologies: TechItem[] = [
   { icon: SiReact, title: 'React', subtitle: 'JavaScript Library' },
   { icon: SiNextdotjs, title: 'Next.js', subtitle: 'React Framework' },
   { icon: SiFigma, title: 'Figma', subtitle: 'Design Tool' },
-  { icon: SiFramer, title: 'Framer', subtitle: 'Markup Language' },
+  { icon: SiFramer, title: 'Motion', subtitle: 'Markup Language' },
   { icon: SiHtml5, title: 'HTML', subtitle: 'Markup Language' },
   { icon: SiSass, title: 'SASS', subtitle: 'CSS Preprocessor' },
   { icon: SiTailwindcss, title: 'Tailwind', subtitle: 'CSS Framework' },

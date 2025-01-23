@@ -8,8 +8,9 @@
       "start": "Oct 2022",
       "end": "Dec 2022",
       "description": [
-        "Graduated with honors",
-        "2nd place in LoyaltyOne's Air Miles hackathon"
+        "Through the course, I developed proficiency in a diverse tech stack, including HTML, CSS, SASS, JavaScript, React, Axios, Node.js, Express.js, MySQL, Knex, Jira, and Git.",
+        "Achieved 2nd place in LoyaltyOne's Air Miles hackathon.",
+        "Collaborated on a group project utilizing Agile workflows, leveraging Jira for task management and Gitflow for version control to ensure efficient and organized development processes."
       ]
     },
     {
@@ -20,7 +21,9 @@
       "start": "June 2022",
       "end": "Oct 2022",
       "description": [
-        "Learnt Javascript, HTML, CSS and React "
+        "Developed a strong foundation in front-end web development, learning key technologies such as HTML, CSS, and JavaScript.",
+        "Gained hands-on experience in implementing responsive design principles to create user-friendly interfaces across various devices.",
+        "Completed real-world projects to solidify knowledge of DOM manipulation, APIs, and asynchronous JavaScript."
       ]
     }
   ]
