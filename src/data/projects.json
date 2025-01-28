@@ -3,6 +3,7 @@
     {
       "name": "EvenShare",
       "description": "EvenShare is a simple app for easily splitting expenses with others. Users can create groups by inviting family or friends via email, allowing everyone to join and track shared costs. The app helps streamline managing expenses within groups, making it easier to stay organized and settled up.",
+      "href": "https://split-bill-427e2.web.app/",
       "image": "/evenshare.png",
       "tags": [
         "TypeScript",
@@ -30,7 +31,7 @@
     {
       "name": "VolumeLight",
       "description": "VolumeLight is a voice visualization tool designed to assist speech therapists in helping individuals, particularly those with Parkinson's, adjust their speaking volume. Through a color-coded 3D globe, it offers real-time visual feedback, allowing users to see and understand their voice volume instantly.",
-      "href": "https://nftvue.vercel.app",
+      "href": "https://www.volume-light.com/",
       "image": "/volume-light.png",
       "tags": [
         "NextJS",
@@ -56,7 +57,7 @@
     {
       "name": "PartsBin",
       "description": "PartsBin is an online marketplace designed for mountain biking enthusiasts. Find new/used bikes and parts, enjoy a responsive UI, secure token-based authentication, and the ability to post ads. Photos are stored with Cloudinary, and a chat app using Socket.IO enables easy communication. State management is handled using React's Context API.",
-      "href": "https://tedawf-dot-com.netlify.app",
+      "href": "https://imaginative-sfogliatella-45400a.netlify.app/",
       "image": "/parts-bin.png",
       "tags": ["React", "SASS", "Ant Design", "Node.JS","Express.JS", "MYSQL", "Socket.IO","Cloudinary"],
       "links": [
@@ -80,7 +81,7 @@
     {
       "name": "InStock",
       "description": "Instock is a warehouse and inventory management system that was built in a week by a team of four developers using Agile work flows (Jira) and GitFlow. Every morning we would have a stand-up to mimic a work environment. I really enjoyed working with Jira, gitFLow and Scrum methodologies. It really allowed us to take a project that felt daunting at the time and break it down into more manageable bite sized pieces. Instock is a fully responsive full-stack web application.",
-      "href": "https://games.digipen.edu/games/rapid-ride-fight",
+      "href": "https://dancing-croissant-6b58eb.netlify.app/",
       "image": "/in-stock.png",
       "tags": ["React", "Javascript", "SASS", "Node.JS", "Express.JS", "MYSQL"],
       "links": [
@@ -104,7 +105,7 @@
     {
       "name": "Get Out(2nd Place In Hackathon)",
       "description": "During a 24-hour Hackathon at the Brainstation Web Development Bootcamp, our team, composed of two UX designers, one Data Scientist, and two Web Developers, set out to revamp LoyaltyOne's Air Miles reward program for Millennials and Gen Z. Our solution? An engaging application that gamifies the experience using a star balance to track progress. We made earning and redeeming points a breeze with a user-friendly digital wallet earning us 2nd place in the competition.If you'd like to check out our project, please make sure to view it in a width of 390px for the best experience.",
-      "href": "https://games.digipen.edu/games/rapid-ride-fight",
+      "href": "https://github.com/michaelshimeles/get-out",
       "image": "/get-out.png",
       "tags": ["React", "Javascript", "SASS", "HTML"],
       "links": [
