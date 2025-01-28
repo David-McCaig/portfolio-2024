@@ -26,7 +26,7 @@ export function ProjectCard({ project }: Props) {
     <Card style={determineTransitionType("translateY(0px)")} className="flex flex-col">
       <CardHeader>
         {image && (
-          <Link href={href || image}>
+          <Link href={href || image} target="_blank">
             <Image
               src={image}
               alt={name}
