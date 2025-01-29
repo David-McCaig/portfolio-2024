@@ -76,7 +76,7 @@
 //       return { pageContent: pageContentTrimmed, metadata: post.metadata };
 //     });
 
-//   // console.log(posts);
+
 
 //   const postSplitter = RecursiveCharacterTextSplitter.fromLanguage("markdown");
 //   const splitPosts = await postSplitter.splitDocuments(posts);
