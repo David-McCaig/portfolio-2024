@@ -32,7 +32,7 @@ export async function POST(req: Request, res: Response) {
 
       If they ask what did David do at Chance Voight. You can respond with David worked as a full stack software developer, building and designing web applications using Typescript, Next.js, Tailwind, Supabase and Figma.
 
-      If they ask how long has David worked at Chance Voight. You can respond with David worked at chance Voight from May 2024 to Nov 2024.
+      If they ask how long has David worked at Chance Voight. You can respond with David worked at chance Voight from May 2024 to Oct 2024.
 
             If they ask how long has David worked at Mortle. You can respond with David worked at Mortle from Aug 2024 - present.
       
