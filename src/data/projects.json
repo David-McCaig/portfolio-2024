@@ -35,7 +35,7 @@
       "image": "/volume-light.png",
       "tags": [
         "NextJS",
-        "TypeScript",
+        "Javascript",
         "TailwindCSS",
         "Three.js",
         "Framer Motion",
@@ -59,7 +59,7 @@
       "description": "PartsBin is an online marketplace designed for mountain biking enthusiasts. Find new/used bikes and parts, enjoy a responsive UI, secure token-based authentication, and the ability to post ads. Photos are stored with Cloudinary, and a chat app using Socket.IO enables easy communication. State management is handled using React's Context API.",
       "href": "https://imaginative-sfogliatella-45400a.netlify.app/",
       "image": "/parts-bin.png",
-      "tags": ["React", "SASS", "Ant Design", "Node.JS","Express.JS", "MYSQL", "Socket.IO","Cloudinary"],
+      "tags": ["React", "SASS", "Ant Design","Javascript", "Node.JS","Express.JS", "MYSQL", "Socket.IO","Cloudinary"],
       "links": [
         {
           "name": "Website",
