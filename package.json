@@ -12,6 +12,8 @@
   "dependencies": {
     "@ai-sdk/openai": "^0.0.72",
     "@datastax/astra-db-ts": "^1.4.1",
+    "@emailjs/browser": "^4.4.1",
+    "@emailjs/nodejs": "^5.0.2",
     "@hookform/resolvers": "^3.9.0",
     "@langchain/community": "^0.3.1",
     "@langchain/core": "^0.3.2",

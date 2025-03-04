@@ -12,7 +12,7 @@ const LIMIT = 2; // max show 2
 
 export default async function Home() {
   return (
-    <article className="mt-8 flex flex-col gap-16 pb-16">
+    <article className="mt-8 flex flex-col gap-16 pb-16 max-w-3xl">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
           className="rounded-lg"
@@ -24,11 +24,6 @@ export default async function Home() {
         />
         <div className="flex flex-col">
           <h1 className="title text-5xl">Hi Dave here 👋</h1>
-          {/* <p className="mt-4 font-light"> */}
-          {/* Update my age */}
-          {/* {new Date().getFullYear() - TED_BIRTH_YEAR}
-            -year-old <s>game</s> software developer from Singapore 🇸🇬
-          </p> */}
           <p className="mt-2 font-light">
             Hi I&apos;m Dave, A front-end React developer who
             has a passion for creating beautiful UI and enjoyable user
@@ -64,19 +59,6 @@ export default async function Home() {
         </div>
         <Projects limit={LIMIT} />
       </section>
-
-      {/* <section className="flex flex-col gap-8">
-        <div className="flex justify-between">
-          <h2 className="title text-3xl">recent posts</h2>
-          <LinkWithIcon
-            href="/blog"
-            position="right"
-            icon={<ArrowRightIcon className="size-5" />}
-            text="view more"
-          />
-        </div>
-        <Posts posts={posts} />
-      </section> */}
     </article>
   );
 }

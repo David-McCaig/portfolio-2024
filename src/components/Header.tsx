@@ -28,7 +28,7 @@ export default function Header() {
             </li>
           ))}
         </ul>
-        <div className="flex gap-0 sm:gap-4">
+        <div className="flex gap-0 sm:gap-4 max-w-3xl">
           <ChatToggle />
           <ThemeToggle />
         </div>

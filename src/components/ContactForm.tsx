@@ -1,6 +1,5 @@
 "use client";
-
-import { sendEmail } from "@/lib/actions";
+import { useRef } from "react";
 import { ContactFormSchema } from "@/lib/schemas";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { PaperPlaneIcon, ReloadIcon } from "@radix-ui/react-icons";
@@ -11,10 +10,13 @@ import { Button } from "./ui/Button";
 import { Input } from "./ui/Input";
 import { Textarea } from "./ui/Textarea";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
 
 type Inputs = z.infer<typeof ContactFormSchema>;
 
 export default function ContactForm() {
+  const form = useRef<HTMLFormElement>(null);
+
   const {
     register,
     handleSubmit,
@@ -23,57 +25,59 @@ export default function ContactForm() {
   } = useForm<Inputs>({
     resolver: zodResolver(ContactFormSchema),
     defaultValues: {
-      name: "",
-      email: "",
+      user_name: "",
+      user_email: "",
       message: "",
     },
   });
 
   const processForm: SubmitHandler<Inputs> = async (data) => {
-    const result = await sendEmail(data);
-
-    if (result.error) {
-      toast.error("An error occurred! Please try again later.");
-      return;
+    if (form.current) {
+      try {
+        await emailjs.sendForm(
+          process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+          process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+          form.current,
+          process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+        );
+        toast.success("Message sent successfully!");
+        reset();
+      } catch (error) {
+        toast.error("Failed to send message!");
+      }
     }
-
-    toast.success("Message sent successfully!");
-    reset();
   };
 
   return (
-    <form onSubmit={handleSubmit(processForm)}>
+    <form ref={form} onSubmit={handleSubmit(processForm)}>
+      {/* Make sure to add name attributes that match your EmailJS template variables */}
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-        {/* Name */}
         <div className="h-16">
           <Input
             id="name"
             type="text"
             placeholder="Name"
-            autoComplete="given-name"
-            {...register("name")}
+            {...register("user_name", { required: true })}
+            name="user_name"
           />
-          {errors.name?.message && (
-            <p className="input-error">{errors.name.message}</p>
+          {errors.user_name?.message && (
+            <p className="input-error">{errors.user_name.message}</p>
           )}
         </div>
 
-        {/* Email */}
         <div className="h-16">
           <Input
             id="email"
             type="email"
             placeholder="Email"
             autoComplete="email"
-            {...register("email")}
+            {...register("user_email")}
           />
-
-          {errors.email?.message && (
-            <p className="input-error">{errors.email.message}</p>
+          {errors.user_email?.message && (
+            <p className="input-error">{errors.user_email.message}</p>
           )}
         </div>
 
-        {/* Message */}
         <div className="h-32 sm:col-span-2">
           <Textarea
             rows={4}
@@ -82,7 +86,6 @@ export default function ContactForm() {
             className="resize-none"
             {...register("message")}
           />
-
           {errors.message?.message && (
             <p className="input-error">{errors.message.message}</p>
           )}
