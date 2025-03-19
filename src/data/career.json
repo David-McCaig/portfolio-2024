@@ -9,7 +9,7 @@
       "description": [
         "Designed and developed an app for a Death startup using Next.js, Supabase, TypeScript, SQL, Mixpanel and Figma.",
         "Implemented an iterative design approach to efficiently design features using Figma, and developed and refined them based on user feedback and analytics to deliver a user-centered experience.",
-        "Collaborated in selecting the tech stack for the application, ensuring scalability and performance, and designed the database using Supabase and PostgreSQL to support robust and efficient data management."
+        "Resolved a caching issue between Next.js and Supabase by implementing a custom solution, ensuring faster page loads and reducing database queries. Since Next.js relies on an SDK with method calls instead of fetch, I optimized data retrieval to improve performance."
       ]
     },
     {

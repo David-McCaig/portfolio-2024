@@ -12,7 +12,7 @@ const LIMIT = 2; // max show 2
 
 export default async function Home() {
   return (
-    <article className="mt-8 flex flex-col gap-16 pb-16 max-w-3xl">
+    <article className="mt-8 flex max-w-3xl flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
           className="rounded-lg"
@@ -25,9 +25,11 @@ export default async function Home() {
         <div className="flex flex-col">
           <h1 className="title text-5xl">Hi Dave here 👋</h1>
           <p className="mt-2 font-light">
-            Hi I&apos;m Dave, A front-end React developer who
+            Hi, I&apos;m Dave, a front-end React developer based in Toronto who
             has a passion for creating beautiful UI and enjoyable user
-            experiences. When I&apos;m not programming you can usually find me racing down mountain bike trails, experimenting with new sounds on my synthesizers, or walking  with my Australian Shepherd, Ariel.{" "}
+            experiences. When I&apos;m not programming, you can usually find me
+            racing down mountain bike trails, experimenting with new sounds on
+            my synthesizers, or walking with my Australian Shepherd, Ariel.
           </p>
           <div className="mt-4 flex items-end gap-1">
             <p className="font-semibold">Ask the AI model anything about me</p>
