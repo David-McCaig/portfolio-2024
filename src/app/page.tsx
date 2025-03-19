@@ -25,7 +25,7 @@ export default async function Home() {
         <div className="flex flex-col">
           <h1 className="title text-5xl">Hi Dave here 👋</h1>
           <p className="mt-2 font-light">
-            Hi, I&apos;m Dave, a front-end React developer based in Toronto who
+            Hi, I&apos;m Dave, a Front-End React developer based in Toronto who
             has a passion for creating beautiful UI and enjoyable user
             experiences. When I&apos;m not programming, you can usually find me
             racing down mountain bike trails, experimenting with new sounds on
