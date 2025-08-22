@@ -1,4 +1,17 @@
-import { SiTypescript, SiReact,SiFramer, SiNextdotjs, SiFigma, SiHtml5, SiSass, SiTailwindcss, SiGit, SiNodedotjs, SiExpress, SiMysql } from 'react-icons/si';
+import { 
+  SiTypescript, 
+  SiReact,
+  SiFramer, 
+  SiNextdotjs, 
+  SiFigma, 
+  SiHtml5, 
+  SiSass, 
+  SiTailwindcss, 
+  SiGit, 
+  SiNodedotjs, 
+  SiExpress, 
+  SiMysql 
+} from 'react-icons/si';
 import { TechItem } from '@/lib/definitions';
 
 export const technologies: TechItem[] = [

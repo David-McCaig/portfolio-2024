@@ -31,7 +31,7 @@
     {
       "name": "VolumeLight",
       "description": "VolumeLight is a voice visualization tool designed to assist speech therapists in helping individuals, particularly those with Parkinson's, adjust their speaking volume. Through a color-coded 3D globe, it offers real-time visual feedback, allowing users to see and understand their voice volume instantly.",
-      "href": "https://www.volume-light.com/",
+      "href": "https://volumelight.vercel.app/",
       "image": "/volume-light.png",
       "tags": [
         "NextJS",
@@ -44,7 +44,7 @@
       "links": [
         {
           "name": "Website",
-          "href": "https://www.volume-light.com/",
+          "href": "https://volumelight.vercel.app/",
           "icon": "github"
         },
         {
