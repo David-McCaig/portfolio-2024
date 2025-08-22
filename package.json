@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "npm run gen && next build",
+    "dev": "NODE_ENV=development next dev",
+    "dev:fast": "NODE_ENV=development next dev --turbo --port 3000",
+    "dev:clean": "./scripts/dev-clean.sh",
+    "dev:fallback": "NODE_ENV=development next dev --port 3000",
+    "build": "next build",
+    "build:analyze": "ANALYZE=true next build",
     "gen": "npx ts-node ./scripts/generate.ts",
     "start": "next start",
     "lint": "next lint"
@@ -50,6 +54,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^15.5.0",
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^20",
     "@types/react": "^18",
