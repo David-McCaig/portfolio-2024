@@ -1,11 +1,24 @@
 {
   "career": [
     {
+      "name": "AgencyAnalytics",
+      "href": "https://www.dbs.com.sg",
+      "title": "Frontend Developer",
+      "logo": "/agencyanalytics.png",
+      "start": "October 2025",
+      "description": [
+        "Collaborated within a cross-functional frontend team to maintain and evolve an internal React component library, working closely with product designers and backend engineers to deliver reusable, accessible UI components and scalable frontend features using React, TypeScript, Redux Toolkit, and Tailwind CSS.",
+        "Led the development of a session management interface that enabled users to view and revoke active login sessions, improving account security and providing a self-service experience for account access management.",
+        "Contributed to a React 18 migration effort that delivered 90+ upgrade and regression-fix tasks in under two weeks, resolving race conditions, updating dependencies, and ensuring compatibility across the internal component library and application surfaces."
+      ]
+    },
+    {
       "name": "Mortle",
       "href": "https://www.dbs.com.sg",
       "title": "Software Developer",
       "logo": "/mortle-logo.png",
       "start": "August 2024",
+      "end": "September 2025",
       "description": [
         "Designed and developed an app for a Death startup using Next.js, Supabase, TypeScript, SQL, Mixpanel and Figma.",
         "Implemented an iterative design approach to efficiently design features using Figma, and developed and refined them based on user feedback and analytics to deliver a user-centered experience.",
