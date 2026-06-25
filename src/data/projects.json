@@ -45,12 +45,12 @@
         {
           "name": "Website",
           "href": "https://volumelight.vercel.app/",
-          "icon": "github"
+          "icon": "globe"
         },
         {
           "name": "Source",
           "href": "https://github.com/David-McCaig/soundbright",
-          "icon": "globe"
+          "icon": "github"
         }
       ]
     },
@@ -62,17 +62,12 @@
       "tags": ["React", "SASS", "Ant Design","Javascript", "Node.JS","Express.JS", "MYSQL", "Socket.IO","Cloudinary"],
       "links": [
         {
-          "name": "Website",
-          "href": "https://imaginative-sfogliatella-45400a.netlify.app/",
-          "icon": "globe"
-        },
-        {
-          "name": "Source Front-End",
+          "name": "Front-End",
           "href": "https://github.com/David-McCaig/parts-bin-client",
           "icon": "github"
         },
         {
-          "name": "Source Back-End",
+          "name": "Back-End",
           "href": "https://github.com/David-McCaig/parts-bin-server",
           "icon": "github"
         }
@@ -86,17 +81,12 @@
       "tags": ["React", "Javascript", "SASS", "Node.JS", "Express.JS", "MYSQL"],
       "links": [
         {
-          "name": "Website",
-          "href": "https://dancing-croissant-6b58eb.netlify.app/",
-          "icon": "globe"
-        },
-        {
-          "name": "Source Front-End",
+          "name": "Front-End",
           "href": "https://github.com/David-McCaig/instock-client",
           "icon": "github"
         },
         {
-          "name": "Source Back-End",
+          "name": "Back-End",
           "href": "https://github.com/David-McCaig/instock-api",
           "icon": "github"
         }
